@@ -63,7 +63,7 @@ const checkwinner=()=>{
     }
 };
 const showwinner=(winner)=>{
-    msg.innerText=`congratulations winner is :${winner}`;
+    msg.innerText=`congratulations winner is : ${winner}`;
     msgcontainer.classList.remove("hide");
     disableboxes();
 };
